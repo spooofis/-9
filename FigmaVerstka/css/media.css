@@ -1,0 +1,36 @@
+@media (max-width: 1200px) {
+    .menu ul>li+li {
+   margin: 0 auto;
+   margin-right: 40px; 
+   justify-content: space-between;
+  }
+
+  .menu ul li:first-child {
+  margin-left:30px;
+  color: #FFF; 
+  }
+  .menu:before {
+  content: "";
+  background: url(../images/bg/Group_367.svg);
+  position: absolute;
+  width: 56px;
+  height: 59px;
+  margin-top: -7px;
+  margin-left: -19px;
+  z-index: 1;
+  }
+
+  .codext-right img{
+  margin-left: 490px;
+  margin-top: -487px;
+  height: 490px;
+  }
+
+  .codext-left {
+  padding-top: 174px;
+  margin-left: 40px;
+  }
+
+  
+}
+
